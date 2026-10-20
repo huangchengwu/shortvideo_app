@@ -1,0 +1,48 @@
+# ═══════ Flutter / Dart ═══════
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.lock.bak
+
+# ═══════ media_kit 运行时缓存（你项目特有） ═══════
+media_kit_cache/
+
+# ═══════ IDE ═══════
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ═══════ Android ═══════
+android/.gradle/
+android/captures/
+android/local.properties
+android/app/build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.jks
+*.keystore
+key.properties
+
+# ═══════ Linux / macOS / Windows 构建产物 ═══════
+linux/flutter/ephemeral/
+linux/build/
+macos/Flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# ═══════ 系统文件 ═══════
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ═══════ 日志 / 临时 ═══════
+*.log
+app_logs*.txt
+*.tmp
